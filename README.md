@@ -1,12 +1,12 @@
-# AOSPA flashing kit for Marble
+# AOSPA flashing kit for Alioth
 
-Scripts to flash firmware and ROM on windows/mac/linux, including latest platform-tools and drivers, for AOSPA - Poco F5 / Redmi Note 12 Turbo.
+Scripts to flash firmware and ROM on windows/mac/linux, including latest platform-tools and drivers, for AOSPA - Redmi K40 / POCO F3 / Mi 11X.
 
 ## Steps
 
-1. Download the latest fastboot package from https://paranoidandroid.co/marble/
+1. Download the latest fastboot package from https://paranoidandroid.co/alioth/
 2. Copy it to this folder and rename it to aospa.zip
-3. Download the latest Android 14 firmware for your variant from https://xiaomifirmwareupdater.com/firmware/marble/
+3. Download the latest Android 13 firmware for your variant from https://xiaomifirmwareupdater.com/firmware/alioth/
 4. Copy it to this folder and rename it to firmware.zip
 5. Run install_google_usb_driver (Windows users only; requires admin)
 6. Reboot to bootloader (`adb reboot bootloader` OR shutdown phone and long press power + volume down button)
